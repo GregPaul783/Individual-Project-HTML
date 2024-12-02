@@ -3,15 +3,8 @@
     src: url(/fonts/edo.ttf);
 }
 
-.paginas {
-    display: flex;
-    flex: 33.33%;
-    padding: 5px;
-    justify-content: space-between;
-}
 body {
     font-family: "Edo";
     background-color: rgb(51, 51, 51);
     color: white;
     }
-
