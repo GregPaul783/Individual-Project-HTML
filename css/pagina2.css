@@ -1,11 +1,75 @@
 @font-face {
-    font-family: 'Edo';
-    src: url(/fonts/edo.ttf);
+font-family: 'Edo';
+src: url(/fonts/edo.ttf);
 }
 
 body {
-    font-family: "Edo";
-    background-color: rgb(26, 26, 26);
-    color: white;
-    }
+font-family: "Edo";
+background-color: rgb(26, 26, 26);
+color: white;
+}
 
+.Logo {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.paginas {
+display: flex;
+flex-wrap: wrap;
+flex: 33.33%;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.copyright {
+margin-left: auto;
+margin-right: auto;
+width: 11%;
+color: red;
+opacity: 70%;
+}
+
+.akiyama {
+display: flex;
+margin-top: 90px;
+}
+
+.daigo {
+display: flex;
+margin-top: 30px;
+align-self: flex-start;
+}
+
+.imagetext {
+float: right;
+animation-name: animatie;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+}
+
+.watase {
+display: flex;
+margin-top: 30px;
+align-self: flex-start;
+flex-wrap: wrap;
+}
+
+@keyframes animatie {
+    0%   {color:red;}
+    20%  {color:yellow;}
+    40%  {color:blue;}
+    60%  {color:green;}
+    80% {color: orange; }
+    90% {color: blueviolet;}
+    100% {color: red;}
+  }

@@ -9,3 +9,24 @@ body {
     color: white;
     }
 
+    .Logo {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .paginas {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 33.33%;
+        align-items: center;
+        justify-content: space-evenly;
+    }

@@ -12,19 +12,22 @@
     display: flex;
     padding-right: 50px;
     padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .image2 {
     display: flex;
     padding-right: 55px;
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 .image3 {
     display: flex;
+    padding-left: 30px;
 }
 
 .Logo {
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -38,14 +41,10 @@
 }
 
 .paginas {
-    display: flex;
-    flex: 33.33%;
     padding: 5px;
-    align-items: center;
-    position: relative;
     flex-wrap: wrap;
     animation-name: animatie;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 
@@ -53,19 +52,18 @@ body {
     font-family: "Edo";
     background-color: rgb(26, 26, 26);
     }
-
-    .copyright{
-        position: relative;
-        top: 230px;
-        left: 900px;
-        width: 11%;
-        color: red;
-        opacity: 70%;
-    }
+    
+.copyright {
+margin-left: auto;
+margin-right: auto;
+width: 11%;
+color: red;
+opacity: 70%;
+}
 
 .Homer {
-position: relative;
-top: 250px;
+margin-left: auto;
+margin-right: auto;
 }
 
 @keyframes animatie {
@@ -74,5 +72,6 @@ top: 250px;
     40%  {color:blue;}
     60%  {color:green;}
     80% {color: orange; }
-    100% {color: blueviolet;}
+    90% {color: blueviolet;}
+    100% {color: red;}
   }
