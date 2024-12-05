@@ -31,4 +31,17 @@ body {
         justify-content: space-evenly;
     }
 
+    .copyright {
+        margin-left: auto;
+        margin-right: auto;
+        width: 11%;
+        color: red;
+        opacity: 70%;
+        }
     
+        #omhoog {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+        }

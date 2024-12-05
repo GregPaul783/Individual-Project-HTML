@@ -30,6 +30,13 @@ align-items: center;
 justify-content: space-evenly;
 }
 
+#omhoog {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
 .copyright {
 margin-left: auto;
 margin-right: auto;

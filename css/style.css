@@ -8,11 +8,20 @@
     margin: 0;
 }
 
+#omhoog {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
 .image1 {
     display: flex;
     padding-right: 50px;
     padding-left: 30px;
     padding-bottom: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 .image2 {
@@ -20,11 +29,15 @@
     padding-right: 55px;
     padding-left: 30px;
     padding-bottom: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 .image3 {
     display: flex;
     padding-left: 30px;
+    padding: 5px;
+    flex-wrap: wrap;
 }
 
 .Logo {
@@ -41,8 +54,6 @@
 }
 
 .paginas {
-    padding: 5px;
-    flex-wrap: wrap;
     animation-name: animatie;
     animation-duration: 12s;
     animation-iteration-count: infinite;
