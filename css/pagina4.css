@@ -9,6 +9,21 @@ body {
     color: white;
     }
 
+.contact {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-bottom: 26px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+
     .Logo {
         align-items: center;
         display: flex;
