@@ -1,74 +1,94 @@
 @font-face {
-    font-family: 'Edo';
-    src: url(/fonts/edo.ttf);
+font-family: 'Edo';
+src: url(/fonts/edo.ttf);
 }
 
 * {
-    padding: 0;
-    margin: 0;
+padding: 0;
+margin: 0;
+}
+
+[class*="col-"] {
+width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 }
 
 #omhoog {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
 .image1 {
-    display: flex;
-    padding-right: 50px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding: 5px;
-    flex-wrap: wrap;
+display: flex;
+padding-right: 50px;
+padding-left: 30px;
+padding-bottom: 10px;
+padding: 5px;
+flex-wrap: wrap;
 }
 
 .image2 {
-    display: flex;
-    padding-right: 55px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-    padding: 5px;
-    flex-wrap: wrap;
+display: flex;
+padding-right: 55px;
+padding-left: 30px;
+padding-bottom: 10px;
+padding: 5px;
+flex-wrap: wrap;
 }
 
 .image3 {
-    display: flex;
-    padding-left: 30px;
-    padding: 5px;
-    flex-wrap: wrap;
+display: flex;
+padding-left: 30px;
+padding: 5px;
+flex-wrap: wrap;
 }
 
 .Logo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .paginas {
-    animation-name: animatie;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
+animation-name: animatie;
+color: aqua;
+animation-duration: 12s;
+animation-iteration-count: infinite;
 }
 
 body {
-    font-family: "Edo";
-    background-color: rgb(26, 26, 26);
-    }
+font-family: "Edo";
+background-color: rgb(26, 26, 26);
+}
     
 .copyright {
 margin-left: auto;
 margin-right: auto;
 width: 11%;
-color: red;
+color: rgb(0, 225, 255);;
 opacity: 70%;
 }
 
@@ -77,11 +97,11 @@ margin-right: auto;
 }
 
 @keyframes animatie {
-    0%   {color:red;}
-    20%  {color:yellow;}
-    40%  {color:blue;}
-    60%  {color:green;}
-    80% {color: orange; }
-    90% {color: blueviolet;}
-    100% {color: red;}
-  }
+0%   {color:red;}
+20%  {color:yellow;}
+40%  {color:blue;}
+60%  {color:green;}
+80% {color: orange; }
+90% {color: blueviolet;}
+100% {color: red;}
+}

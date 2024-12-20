@@ -3,6 +3,25 @@ font-family: 'Edo';
 src: url(/fonts/edo.ttf);
 }
 
+[class*="col-"] {
+width: 100%;
+}
+      
+@media only screen and (min-width: 768px) {
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
 body {
 font-family: "Edo";
 background-color: rgb(26, 26, 26);
@@ -31,29 +50,31 @@ justify-content: space-evenly;
 }
 
 #omhoog {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
+display: flex;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
 }
 
 .copyright {
 margin-left: auto;
 margin-right: auto;
 width: 11%;
-color: red;
+color: rgb(0, 225, 255);
 opacity: 70%;
 }
 
 .akiyama {
 display: flex;
 margin-top: 90px;
+flex-wrap: wrap;
 }
 
 .daigo {
 display: flex;
 margin-top: 30px;
 align-self: flex-start;
+flex-wrap: wrap;
 }
 
 .imagetext {
@@ -71,12 +92,26 @@ align-self: flex-start;
 flex-wrap: wrap;
 }
 
+.hijikata {
+display: flex;
+margin-top: 30px;
+align-self: flex-start;
+flex-wrap: wrap;
+}
+
+.ryoma {
+display: flex;
+margin-top: 30px;
+align-self: flex-start;
+flex-wrap: wrap;
+}
+
 @keyframes animatie {
-    0%   {color:red;}
-    20%  {color:yellow;}
-    40%  {color:blue;}
-    60%  {color:green;}
-    80% {color: orange; }
-    90% {color: blueviolet;}
-    100% {color: red;}
+0%   {color:red;}
+20%  {color:yellow;}
+40%  {color:blue;}
+60%  {color:green;}
+80% {color: orange; }
+90% {color: blueviolet;}
+100% {color: red;}
   }
